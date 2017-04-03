@@ -1,0 +1,104 @@
+#top-nav li:hover ul{
+	display:block;
+}
+
+#top-nav{
+	font: 24px sans-serif;
+	display:block;
+	position:relative;
+	height:50px;
+	width:1000px;
+	margin:0px auto;
+	background-color:black;
+
+	border:1px solid;
+}
+
+
+
+#top-nav li{
+	position:relative;
+	list-style-type:none;
+	float:left;
+}
+
+#top-nav ul:after 
+{
+	content:".";
+	display:block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+
+#top-nav li a{
+	
+	display:block;
+	text-decoration:none;
+	color:white;
+	padding:10px 25px;
+	border:1px solid black;
+}
+
+
+
+#top-nav ul ul {
+	background-color:black;
+	position:absolute;
+	left:0px;
+	border:1px;
+	display:none;
+}
+
+#top-nav ul ul li a{
+	font:14px sans-serif;
+}
+
+
+#top-nav li:hover{
+	background-color:gray;
+}
+
+
+#top-nav ul ul li a :hover{
+	background-color:gray;
+}
+
+
+.center{
+	text-align:center;
+		display:block;
+	
+	
+}
+
+
+
+body{
+	background-color:powderblue;
+	text-align:center;
+}
+
+
+p{
+	text-align:center;
+}
+
+
+.video{
+	padding:10px;
+	margin:10px;
+	border:0px;
+}
+
+
+
+footer{
+background-color:black;
+color:white;
+float:bottom;
+display:block;
+padding:0px;
+clear:both;
+}
+

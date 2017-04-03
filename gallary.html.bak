@@ -1,0 +1,68 @@
+<!doctype html>
+
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title> dropdown </title>
+<link rel="stylesheet" href="new 1.css">
+</head>
+<body>
+
+<!--this is Gallary page only-->
+
+<header>
+<div id="top-nav">
+<ul>
+
+<li><a href="Home.html"> Home </a></li>
+<li><a href="#"> Galary</a>
+<ul>
+	<li><a href="#">Galary-1</a></li>
+	<li><a href="#">Galary-2</a></li>
+	<li><a href="#">Galary-3</a></li>
+	<li><a href="#">Galary-4</a></li>
+	</ul>
+ </li>
+<li> <a href="#">News </a> </li>
+<li> <a href="#">About</a> </li>
+</ul>
+
+</div>
+
+</header>
+
+
+<section >
+<h1> Welcome to My Gallary </h1>
+<div class="video">
+<video type="video/mp4" width="500" height="250"  autoplay controls>
+<source src="Content/Just a dream. ♥.mp4"/>
+</video>
+
+
+<video type="video/mp4" width="500" height="250"  autoplay controls>
+<source src="Content/Just a dream. ♥.mp4"/>
+</video>
+
+<video type="video/mp4" width="500" height="250"  autoplay controls>
+<source src="Content/Just a dream. ♥.mp4"/>
+</video>
+
+<video type="video/mp4" width="500" height="250" autoplay controls>
+<source src="Content/Just a dream. ♥.mp4"/>
+</video>
+
+</section>
+<br></br>
+<br></br>
+<br></br>
+
+<div id="footer">
+
+<footer>© 2016 APPROOT SOLUTIONS PVT LTD.</footer>
+
+</div>
+
+</body>
+</html>
